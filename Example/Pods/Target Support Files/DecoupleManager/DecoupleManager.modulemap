@@ -1,0 +1,6 @@
+framework module DecoupleManager {
+  umbrella header "DecoupleManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

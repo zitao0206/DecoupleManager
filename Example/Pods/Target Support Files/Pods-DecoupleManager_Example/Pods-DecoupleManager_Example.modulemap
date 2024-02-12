@@ -1,0 +1,6 @@
+framework module Pods_DecoupleManager_Example {
+  umbrella header "Pods-DecoupleManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

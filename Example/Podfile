@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DecoupleManager_Example' do
+  pod 'DecoupleManager', :path => '../'
+
+  target 'DecoupleManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

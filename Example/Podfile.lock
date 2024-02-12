@@ -1,0 +1,16 @@
+PODS:
+  - DecoupleManager (0.1.0)
+
+DEPENDENCIES:
+  - DecoupleManager (from `../`)
+
+EXTERNAL SOURCES:
+  DecoupleManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DecoupleManager: 910809372069de90b8f197c3da1173f59c865bab
+
+PODFILE CHECKSUM: 9b3acc1ba89ee2a95eed34807d138d8861f29a55
+
+COCOAPODS: 1.11.3
