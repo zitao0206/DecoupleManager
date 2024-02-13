@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DecoupleServiceManager.h"
+#import "DecoupleServiceManagerProtocol.h"
 
 FOUNDATION_EXPORT double DecoupleManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char DecoupleManagerVersionString[];

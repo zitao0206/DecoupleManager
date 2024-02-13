@@ -8,57 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		046CE0B12A94B341F80F5C6CB26F3D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0994EF4F31583D0CCD0ED07FFB40D3B9 /* DecoupleManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 036DB7D6F13873A7033A56077540B193 /* DecoupleManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35E83A09B26D40D3381E01A9AA782319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3A65B6A59F658099CB5EACE82C731058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3B9A260A847B0A10D4ABED30377B7127 /* Pods-DecoupleManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B922063265327BA8743A2CD1D1C28A /* Pods-DecoupleManager_Tests-dummy.m */; };
-		4FEC7C821DEAC0C769E4CBE83E0176B8 /* DecoupleManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D06AA33D76379EC2DCEAAF475E51C /* DecoupleManager-dummy.m */; };
-		69FBB3779E2B53DDEA6DBAC3B4F5D37C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598BC728658F3904D00B4F6C6E782FC2 /* ReplaceMe.swift */; };
-		845BD422C13748A671114CE11FBF5667 /* DecoupleManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91015E4B10CA13EA95C7DA71BD5554E0 /* DecoupleManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92B4A608A1D9D85D76AAEA6453CF09D8 /* DecoupleServiceManagerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF119D603C86B535AA99A4DD1F83C67 /* DecoupleServiceManagerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98A6EFC0CA4630DB2F8ECEDB8421F8B7 /* Pods-DecoupleManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E41768264A6BA8B03F8C19A78569BD80 /* Pods-DecoupleManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE91AEBF54E021D2B8D17517F5963685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CA16FA65C627200A3833DD7DD8960EC5 /* Pods-DecoupleManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC94F4B3D9E51A5D6BD6F1969860CA12 /* Pods-DecoupleManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD8C2E010F16A791763D56731EDEA1C8 /* DecoupleServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 884B33A112C66F57C3932B2CFB39909F /* DecoupleServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0453452AE8F74FE971FA2E4D386DD0B /* DecoupleServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD21F26CE51BAC4FE2FE1208AEBF74CD /* DecoupleServiceManager.m */; };
 		ED0E91CE95109B2FD0BCA1DB7BE1727D /* Pods-DecoupleManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFD3D3AB83C3C6F0C9A32C612806358 /* Pods-DecoupleManager_Example-dummy.m */; };
+		F119AB978036561287D6973F542309F1 /* DecoupleManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFED9C713C1E895E3CAC796233316F3 /* DecoupleManager-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		21ED390CC7BD6F014742B9BD53879B16 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E768F9D844A60CD7894F29FA6E7730BC;
-			remoteInfo = DecoupleManager;
-		};
-		975D78EA87E06601B226037EC832FF3A /* PBXContainerItemProxy */ = {
+		2E4F81C7F1D7A5FF76806122E830D591 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2254BFE7C1614EE15E02363CA10BE471;
 			remoteInfo = "Pods-DecoupleManager_Example";
 		};
+		6EC8FD6D430570880787860A0C61F636 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E768F9D844A60CD7894F29FA6E7730BC;
+			remoteInfo = DecoupleManager;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036DB7D6F13873A7033A56077540B193 /* DecoupleManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DecoupleManager-umbrella.h"; sourceTree = "<group>"; };
 		04192365B8EC60E73B6B4DCD8F26D492 /* Pods-DecoupleManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecoupleManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0DFED9C713C1E895E3CAC796233316F3 /* DecoupleManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DecoupleManager-dummy.m"; sourceTree = "<group>"; };
 		13C2342F52D393E9F19A45B8905F12E9 /* Pods-DecoupleManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DecoupleManager_Example.modulemap"; sourceTree = "<group>"; };
 		15CBF1564FE9D4863BDC2F992FA931F0 /* Pods-DecoupleManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecoupleManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2A1FC24DE56D71D1DB98513A1532BC11 /* DecoupleManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DecoupleManager-Info.plist"; sourceTree = "<group>"; };
-		3BB5AFABADCD5DB81F751EED2AE90371 /* DecoupleManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DecoupleManager.debug.xcconfig; sourceTree = "<group>"; };
-		45CA525002CEE3932F7C48407B5159C5 /* DecoupleManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DecoupleManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4C7E8B689E5072E4B9C932B621BB711D /* DecoupleManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DecoupleManager-prefix.pch"; sourceTree = "<group>"; };
-		598BC728658F3904D00B4F6C6E782FC2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DecoupleManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4A71DA20BB3B7FEBEDE278452F8402E0 /* DecoupleManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DecoupleManager.release.xcconfig; sourceTree = "<group>"; };
+		4D8BAC906FFC006F5BBBA0B5D1C87F31 /* DecoupleManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DecoupleManager.modulemap; sourceTree = "<group>"; };
 		5B55EFBDDBFA4361D61E862A252C48DA /* Pods-DecoupleManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecoupleManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		5DD598AA57CF2800ADF6AFCCBF00F3E8 /* Pods-DecoupleManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecoupleManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6003D908EEE5FB1077D7FDB40020AA1B /* DecoupleManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DecoupleManager-prefix.pch"; sourceTree = "<group>"; };
 		712FA78E96DF1DB8492B1146969D71A1 /* Pods-DecoupleManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecoupleManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		83ED61869B2FC5D11A7B764DB1CA0365 /* DecoupleManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DecoupleManager.release.xcconfig; sourceTree = "<group>"; };
-		84E03107A5AE0DC60EBCEEF4674CF278 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8111965FC5A2B18F8479D88FE8D51481 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		884B33A112C66F57C3932B2CFB39909F /* DecoupleServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DecoupleServiceManager.h; path = DecoupleManager/Classes/DecoupleServiceManager.h; sourceTree = "<group>"; };
 		8E61BAEAD91E386C6B90C6778914D1EF /* Pods-DecoupleManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DecoupleManager_Tests.modulemap"; sourceTree = "<group>"; };
-		8E68EC7E508FEB6D311CD7215DEF2002 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		91015E4B10CA13EA95C7DA71BD5554E0 /* DecoupleManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DecoupleManager-umbrella.h"; sourceTree = "<group>"; };
+		9D869E7B13A28538A863D570F5D05046 /* DecoupleManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DecoupleManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B0E4B85D047B6E824A7C94DCA15F1347 /* DecoupleManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DecoupleManager.modulemap; sourceTree = "<group>"; };
-		B61D06AA33D76379EC2DCEAAF475E51C /* DecoupleManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DecoupleManager-dummy.m"; sourceTree = "<group>"; };
+		BD21F26CE51BAC4FE2FE1208AEBF74CD /* DecoupleServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DecoupleServiceManager.m; path = DecoupleManager/Classes/DecoupleServiceManager.m; sourceTree = "<group>"; };
+		C131F4C8D74D09D519508607A9179176 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CC94F4B3D9E51A5D6BD6F1969860CA12 /* Pods-DecoupleManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DecoupleManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CF2E92010D7F98BB431F2B5ABD1C9FD0 /* Pods-DecoupleManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DecoupleManager_Example"; path = Pods_DecoupleManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF119D603C86B535AA99A4DD1F83C67 /* DecoupleServiceManagerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DecoupleServiceManagerProtocol.h; path = DecoupleManager/Classes/DecoupleServiceManagerProtocol.h; sourceTree = "<group>"; };
 		DE31170A0D741529A1C3997C61BCE5BB /* Pods-DecoupleManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecoupleManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DE8456BEA90A21665A8F4BB1D77B97E3 /* Pods-DecoupleManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecoupleManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3A5E7499D5BFC0263288AF8A7AF26E0 /* Pods-DecoupleManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecoupleManager_Example-Info.plist"; sourceTree = "<group>"; };
@@ -68,24 +70,26 @@
 		EF9F6B0BF2894B506FFD0CD421CBC44E /* Pods-DecoupleManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecoupleManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F07180941294878DD5B5C460AE2B5A5B /* Pods-DecoupleManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecoupleManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F2A6B47145B9115CDABC26146E6CAF6D /* Pods-DecoupleManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DecoupleManager_Tests"; path = Pods_DecoupleManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6764CEE01E28A88196F3B5C1ABEBEC6 /* DecoupleManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DecoupleManager-Info.plist"; sourceTree = "<group>"; };
 		FA09D819B3FE8437C18FD67A7A0D973C /* Pods-DecoupleManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecoupleManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FEFD3D3AB83C3C6F0C9A32C612806358 /* Pods-DecoupleManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DecoupleManager_Example-dummy.m"; sourceTree = "<group>"; };
+		FF97DBDC6252EAF11D38A3BC33D90971 /* DecoupleManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DecoupleManager.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6AACD0CEF716BE60356B86EEE3AA734C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE91AEBF54E021D2B8D17517F5963685 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C7FE696686E4863AEA83A398C9800FFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				35E83A09B26D40D3381E01A9AA782319 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7043532E5185D6660D9E785EED1BF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A65B6A59F658099CB5EACE82C731058 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,23 +104,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4846B82163582527D79B06ED98E89ABF /* Development Pods */ = {
+		1CCD0BD10AA4E447A4DB7ABFD1976A41 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E939B85FC66C8E3DD199FAE176CCEFA /* DecoupleManager */,
+				DEB0C6A0E398EFB61F2EFDF211D06074 /* DecoupleManager */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4E939B85FC66C8E3DD199FAE176CCEFA /* DecoupleManager */ = {
-			isa = PBXGroup;
-			children = (
-				598BC728658F3904D00B4F6C6E782FC2 /* ReplaceMe.swift */,
-				7E90010E4242BCBE8540C491B2ACED99 /* Pod */,
-				774674EC54A83751F8FC51131FFE80A4 /* Support Files */,
-			);
-			name = DecoupleManager;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -127,29 +120,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		774674EC54A83751F8FC51131FFE80A4 /* Support Files */ = {
+		5B0BA2955E52FE7E514AD030D2E5F350 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B0E4B85D047B6E824A7C94DCA15F1347 /* DecoupleManager.modulemap */,
-				B61D06AA33D76379EC2DCEAAF475E51C /* DecoupleManager-dummy.m */,
-				2A1FC24DE56D71D1DB98513A1532BC11 /* DecoupleManager-Info.plist */,
-				4C7E8B689E5072E4B9C932B621BB711D /* DecoupleManager-prefix.pch */,
-				91015E4B10CA13EA95C7DA71BD5554E0 /* DecoupleManager-umbrella.h */,
-				3BB5AFABADCD5DB81F751EED2AE90371 /* DecoupleManager.debug.xcconfig */,
-				83ED61869B2FC5D11A7B764DB1CA0365 /* DecoupleManager.release.xcconfig */,
+				4D8BAC906FFC006F5BBBA0B5D1C87F31 /* DecoupleManager.modulemap */,
+				0DFED9C713C1E895E3CAC796233316F3 /* DecoupleManager-dummy.m */,
+				F6764CEE01E28A88196F3B5C1ABEBEC6 /* DecoupleManager-Info.plist */,
+				6003D908EEE5FB1077D7FDB40020AA1B /* DecoupleManager-prefix.pch */,
+				036DB7D6F13873A7033A56077540B193 /* DecoupleManager-umbrella.h */,
+				FF97DBDC6252EAF11D38A3BC33D90971 /* DecoupleManager.debug.xcconfig */,
+				4A71DA20BB3B7FEBEDE278452F8402E0 /* DecoupleManager.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DecoupleManager";
-			sourceTree = "<group>";
-		};
-		7E90010E4242BCBE8540C491B2ACED99 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				45CA525002CEE3932F7C48407B5159C5 /* DecoupleManager.podspec */,
-				8E68EC7E508FEB6D311CD7215DEF2002 /* LICENSE */,
-				84E03107A5AE0DC60EBCEEF4674CF278 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		811D259325ECDA416A75807FF5739B0F /* Targets Support Files */ = {
@@ -178,6 +161,16 @@
 			path = "Target Support Files/Pods-DecoupleManager_Example";
 			sourceTree = "<group>";
 		};
+		BB4F050D9BDDA7C4D053BCB8C4B4F24F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9D869E7B13A28538A863D570F5D05046 /* DecoupleManager.podspec */,
+				C131F4C8D74D09D519508607A9179176 /* LICENSE */,
+				8111965FC5A2B18F8479D88FE8D51481 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CCDBCBACCFB512B8E8EEB287D6589D95 /* Pods-DecoupleManager_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,7 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4846B82163582527D79B06ED98E89ABF /* Development Pods */,
+				1CCD0BD10AA4E447A4DB7ABFD1976A41 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E9DD828B23BB3B1FF6B4E2C8F75858E2 /* Products */,
 				811D259325ECDA416A75807FF5739B0F /* Targets Support Files */,
@@ -211,6 +204,19 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB0C6A0E398EFB61F2EFDF211D06074 /* DecoupleManager */ = {
+			isa = PBXGroup;
+			children = (
+				884B33A112C66F57C3932B2CFB39909F /* DecoupleServiceManager.h */,
+				BD21F26CE51BAC4FE2FE1208AEBF74CD /* DecoupleServiceManager.m */,
+				DDF119D603C86B535AA99A4DD1F83C67 /* DecoupleServiceManagerProtocol.h */,
+				BB4F050D9BDDA7C4D053BCB8C4B4F24F /* Pod */,
+				5B0BA2955E52FE7E514AD030D2E5F350 /* Support Files */,
+			);
+			name = DecoupleManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E9DD828B23BB3B1FF6B4E2C8F75858E2 /* Products */ = {
@@ -234,19 +240,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		047C52B67E4A3D9C2D1115B731B66E4D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				845BD422C13748A671114CE11FBF5667 /* DecoupleManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		873D9CF15FAAED5C13A92CEB2CF94815 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CA16FA65C627200A3833DD7DD8960EC5 /* Pods-DecoupleManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9336718D5398F75B991D3DA87708C47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0994EF4F31583D0CCD0ED07FFB40D3B9 /* DecoupleManager-umbrella.h in Headers */,
+				CD8C2E010F16A791763D56731EDEA1C8 /* DecoupleServiceManager.h in Headers */,
+				92B4A608A1D9D85D76AAEA6453CF09D8 /* DecoupleServiceManagerProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +273,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				17CFFE016F1D05C3BBE6C5B1C51AB10F /* PBXTargetDependency */,
+				0247E183715AE708A15739A4F82D91E2 /* PBXTargetDependency */,
 			);
 			name = "Pods-DecoupleManager_Example";
 			productName = Pods_DecoupleManager_Example;
@@ -284,7 +292,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				62541AD6C77B3479C44ABFA2AA73B898 /* PBXTargetDependency */,
+				34CD9844B52868BEFFA243EAF2C5EDB1 /* PBXTargetDependency */,
 			);
 			name = "Pods-DecoupleManager_Tests";
 			productName = Pods_DecoupleManager_Tests;
@@ -293,12 +301,12 @@
 		};
 		E768F9D844A60CD7894F29FA6E7730BC /* DecoupleManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47886B04CC0C858554103282F4ED5B49 /* Build configuration list for PBXNativeTarget "DecoupleManager" */;
+			buildConfigurationList = 6AB75B4EC0A786EF6487372F84F7E3A2 /* Build configuration list for PBXNativeTarget "DecoupleManager" */;
 			buildPhases = (
-				047C52B67E4A3D9C2D1115B731B66E4D /* Headers */,
-				A5BF5A198C0A72E7D1E22F54651709AE /* Sources */,
-				6AACD0CEF716BE60356B86EEE3AA734C /* Frameworks */,
-				3BDA57BF783A947D223FE9ED2A36C68B /* Resources */,
+				E9336718D5398F75B991D3DA87708C47 /* Headers */,
+				1ACD24816482B6251E47F3BC1F1AA7DF /* Sources */,
+				DC7043532E5185D6660D9E785EED1BF0 /* Frameworks */,
+				20EE5D8675CA610D2E900DF27028EE8E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -339,7 +347,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3BDA57BF783A947D223FE9ED2A36C68B /* Resources */ = {
+		20EE5D8675CA610D2E900DF27028EE8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +371,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1ACD24816482B6251E47F3BC1F1AA7DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F119AB978036561287D6973F542309F1 /* DecoupleManager-dummy.m in Sources */,
+				D0453452AE8F74FE971FA2E4D386DD0B /* DecoupleServiceManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BB13CD033435D4C7D5A9BEA45608A89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ED0E91CE95109B2FD0BCA1DB7BE1727D /* Pods-DecoupleManager_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A5BF5A198C0A72E7D1E22F54651709AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4FEC7C821DEAC0C769E4CBE83E0176B8 /* DecoupleManager-dummy.m in Sources */,
-				69FBB3779E2B53DDEA6DBAC3B4F5D37C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,24 +399,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17CFFE016F1D05C3BBE6C5B1C51AB10F /* PBXTargetDependency */ = {
+		0247E183715AE708A15739A4F82D91E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DecoupleManager;
 			target = E768F9D844A60CD7894F29FA6E7730BC /* DecoupleManager */;
-			targetProxy = 21ED390CC7BD6F014742B9BD53879B16 /* PBXContainerItemProxy */;
+			targetProxy = 6EC8FD6D430570880787860A0C61F636 /* PBXContainerItemProxy */;
 		};
-		62541AD6C77B3479C44ABFA2AA73B898 /* PBXTargetDependency */ = {
+		34CD9844B52868BEFFA243EAF2C5EDB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DecoupleManager_Example";
 			target = 2254BFE7C1614EE15E02363CA10BE471 /* Pods-DecoupleManager_Example */;
-			targetProxy = 975D78EA87E06601B226037EC832FF3A /* PBXContainerItemProxy */;
+			targetProxy = 2E4F81C7F1D7A5FF76806122E830D591 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C24C02E1D1257CE538AC8806E178C7C /* Release */ = {
+		17F624F089747786A0CFEFAC4C96E61A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83ED61869B2FC5D11A7B764DB1CA0365 /* DecoupleManager.release.xcconfig */;
+			baseConfigurationReference = 4A71DA20BB3B7FEBEDE278452F8402E0 /* DecoupleManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -437,37 +445,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		32B3B9AE663E7CBACFCBB93019B2549E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BB5AFABADCD5DB81F751EED2AE90371 /* DecoupleManager.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DecoupleManager/DecoupleManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DecoupleManager/DecoupleManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DecoupleManager/DecoupleManager.modulemap";
-				PRODUCT_MODULE_NAME = DecoupleManager;
-				PRODUCT_NAME = DecoupleManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -558,6 +535,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6BAEED62C45098F36156B1232371395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF97DBDC6252EAF11D38A3BC33D90971 /* DecoupleManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DecoupleManager/DecoupleManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DecoupleManager/DecoupleManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DecoupleManager/DecoupleManager.modulemap";
+				PRODUCT_MODULE_NAME = DecoupleManager;
+				PRODUCT_NAME = DecoupleManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -752,20 +760,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47886B04CC0C858554103282F4ED5B49 /* Build configuration list for PBXNativeTarget "DecoupleManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32B3B9AE663E7CBACFCBB93019B2549E /* Debug */,
-				0C24C02E1D1257CE538AC8806E178C7C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB75B4EC0A786EF6487372F84F7E3A2 /* Build configuration list for PBXNativeTarget "DecoupleManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BAEED62C45098F36156B1232371395 /* Debug */,
+				17F624F089747786A0CFEFAC4C96E61A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
